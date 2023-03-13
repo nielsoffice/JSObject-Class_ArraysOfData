@@ -100,6 +100,6 @@ JavaScript Object, Class data. Create a multiple object that push data array int
  [[Prototype]] : Array(0)
 ```
 
- This is how to create an static object and new object that push on existing without create a another object data or instantiate class. 
- this will helps when you are collecting a static data that you needs in order to manipulate for whatever reason in order to achive your web application goal interface or interactive. 
+ This is how to create an static object and new object that push on existing without instantiate class. 
+ This will helps when you are collecting a static data that you needs in order to manipulate for whatever reason to achive your web application goal interface or interactive. 
  This how you can easily maintain your code clean and easy. 
