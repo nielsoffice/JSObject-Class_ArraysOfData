@@ -102,6 +102,7 @@ JavaScript Object, Class data. Create a multiple object that push data array int
 
 ```JS
 // Bonus handling static object
+// Iterate Object : https://github.com/nielsoffice/JSObject
   const collections = experts.experts;
   
   console.log(collections);
