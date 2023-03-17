@@ -100,6 +100,28 @@ JavaScript Object, Class data. Create a multiple object that push data array int
  [[Prototype]] : Array(0)
 ```
 
+```JS
+// Bonus handling static object
+  const collections = experts.experts;
+  
+  console.log(collections);
+
+  collections.forEach( ( element , index ) => {
+     console.log( index +' : '+ element.name ); // Get index and names
+  });
+
+// Console.log | Result 
+(3) [Developer, Developer, Developer]
+ 0: Developer {name: 'Niel', yearsExperience: 6, getName: ƒ, getYearsExperience: ƒ}
+ 1: Developer {name: 'NielOffice', yearsExperience: 7, getName: ƒ, getYearsExperience: ƒ}
+ 2: Developer {name: 'John', yearsExperience: 8, getName: ƒ, getYearsExperience: ƒ}
+length: 3[[Prototype]]: Array(0)
+// index and names
+ 0 : Niel
+ 1 : NielOffice
+ 2 : John
+```
+
  This is how to create an static object and new object that push on existing without instantiate class. 
  This will helps when you are collecting a static data that you needs in order to manipulate for whatever reason to achive your web application goal interface or interactive. 
  This how you can easily maintain your code clean and easy. 
