@@ -126,3 +126,57 @@ length: 3[[Prototype]]: Array(0)
  This is how to create an static object and new object that push on existing without instantiate class. 
  This will helps when you are collecting a static data that you needs in order to manipulate for whatever reason to achive your web application goal interface or interactive. 
  This how you can easily maintain your code clean and easy. 
+ 
+ <br />
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------
+ <br />
+
+Object Data 
+
+```JS
+
+ Object.keys
+ Object.values
+ Object.entries
+ 
+ let Obj = {
+  
+   one : 'Christmas',
+   two : 'New Year',
+   three : 'Valentines'
+
+ }
+
+ // Object to String 
+ Object.keys(Obj).forEach((key, index) => { console.log(key, Obj[key]); });
+
+ // Object to String 
+ Object.values(Obj).forEach((value) => { console.log(value); });
+ 
+ // Arrays Of Data
+ Object.entries(Obj).forEach( (value) => { console.log(value); });
+ 
+```
+
+```JS
+// Console.log | result 
+
+//  Object.keys
+one Christmas
+two New Year
+three Valentines
+-------------------------------
+//  Object.values
+Christmas
+New Year
+Valentines
+-------------------------------
+//  Object.entries
+(2) ['one', 'Christmas']
+    0: "one"
+    1: "Christmas" 
+    length: 2 
+[[Prototype]]: Array(0)
+(2) ['two', 'New Year']
+(2) ['three', 'Valentines']
+```
