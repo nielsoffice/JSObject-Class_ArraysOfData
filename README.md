@@ -180,3 +180,36 @@ Valentines
 (2) ['two', 'New Year']
 (2) ['three', 'Valentines']
 ```
+
+```JS
+// Long and shorthand version Checking if truly or falsy value 
+ if(Obj.one) { 
+  /* Is Obj having one property? */ 
+  console.log(Obj.one);
+ }
+ // w/ OR condition 
+ if(Obj.one || Obj.two) { 
+  /* Is Obj having one property? */ 
+   console.log(Obj.one || Obj.two);
+ }
+ // w/ && condition 
+ if(Obj.one && Obj.two) { 
+  /* Is Obj having one property? */ 
+  console.log(Obj.one && Obj.two);
+ }
+
+ // SHORTHAND VERSION
+ let objectData = Obj?.one?.two || 'now found'; 
+ let objeData   = (Obj?.one?.two) && Obj?.three; 
+
+ console.log(objectData);
+ console.log(Obj?.three);
+```
+
+```JS
+ Christmas
+ Christmas
+ New Year
+ now found
+ Valentines
+```
